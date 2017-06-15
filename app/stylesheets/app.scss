@@ -34,7 +34,7 @@ a {
 }
 
 .logo {
-  background: url('images/logo.jpg') no-repeat center / contain;
+  background: url('../images/logo.jpg') no-repeat center / contain;
   width: 15vw;
   height: 5vw;
 }
@@ -75,21 +75,21 @@ a {
 }
 
 .socials__fb {
-  background: url('images/facebook.svg') no-repeat center / contain;
+  background: url('../images/facebook.svg') no-repeat center / contain;
   height: 2vw;
   width: 2vw;
   margin-right: 1vw;
 }
 
 .socials__ig {
-  background: url('images/instagram.svg') no-repeat center / contain;
+  background: url('../images/instagram.svg') no-repeat center / contain;
   height: 2vw;
   width: 2vw;
   margin-right: 1vw;
 }
 
 .socials__vk {
-  background: url('images/vk.svg') no-repeat center / contain;
+  background: url('../images/vk.svg') no-repeat center / contain;
   height: 2vw;
   width: 2vw;
 }
@@ -245,7 +245,7 @@ a {
 }
 
 .modal-close {
-  background: url('images/close.svg') no-repeat center / contain;
+  background: url('../images/close.svg') no-repeat center / contain;
   width: 20px;
   height: 21px;
 

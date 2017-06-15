@@ -26,8 +26,8 @@ function getItems (data, name) {
   // пробегаемся по массиву
   return data.map((item, index) => {
     const result = `
-      <div class='${getGridClass()}' style='background-image: url(../images/${item.image_path}.jpg)'>
-        <input type="hidden" value="../images/${item.image_path}.jpg" />
+      <div class='${getGridClass()}' style='background-image: url(images/${item.image_path}.jpg)'>
+        <input type="hidden" value="images/${item.image_path}.jpg" />
         <div class="content-info">
           <div class="content-title">${item.name}</div>
         </div>
